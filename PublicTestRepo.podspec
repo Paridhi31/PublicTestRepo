@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PublicTestRepo'
   s.version          = '1.0.0'
-  s.summary          = 'To test the Child App linking with Parent app'
+  s.summary          = 'Public repo for testing purpose'
 
   s.description      = <<-DESC
 Child app to be linked with the parent app
