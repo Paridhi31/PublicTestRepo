@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
 Public repo for testing purpose
                        DESC
 
-  s.homepage         = 'http://github.com/Paridhi31/PublicTestRepo'
+  s.homepage         = 'https://github.com/Paridhi31/PublicTestRepo'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = "Paridhi Malviya"
-  s.source           = { :git => 'git@github.com:Paridhi31/PublicTestRepo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'http://github.com/Paridhi31/PublicTestRepo.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '10.0'
   s.source_files = 'PublicTestRepo/PublicTestViewController.Swift'
