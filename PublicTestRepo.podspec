@@ -10,7 +10,7 @@ Child app to be linked with the parent app
   s.homepage         = 'https://github.com/Paridhi31/PublicTestRepo'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Paridhi Malviya>=' => 'paridhi338malviya@gmail.com' }
-  s.source           = { :git => 'git@github.com:Paridhi31/PublicTestRepo.git', :commit => '9a672ede43d0aa8fa2683a7da40779fe54fdfeb6' }
+  s.source           = { :git => 'git@github.com:Paridhi31/PublicTestRepo.git', :commit => '9a672ede43d0aa8fa2683a7da40779fe54fdfeb6', :tag => s.version.to_s }
   
   s.ios.deployment_target = '10.0'
   s.source_files = 'PublicTestRepo/PublicTestViewController.Swift'
