@@ -4,12 +4,12 @@ Pod::Spec.new do |s|
   s.summary          = 'Public repo for testing purpose'
 
   s.description      = <<-DESC
-Child app to be linked with the parent app
+Public repo for testing purpose
                        DESC
 
   s.homepage         = 'https://github.com/Paridhi31/PublicTestRepo'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Paridhi Malviya>=' => 'paridhi338malviya@gmail.com' }
+  s.author           = "Paridhi Malviya"
   s.source           = { :git => 'git@github.com:Paridhi31/PublicTestRepo.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '10.0'
